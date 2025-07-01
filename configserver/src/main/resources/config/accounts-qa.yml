@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to Eazy Bank Accounts related QA APIs"
+  contactDetails:
+    email: "email@example.com"
+    name: "Eazy Bank - QA"
+  onCallSupport:
+    - (6666) 555-1234
+    - (6666) 555-1235

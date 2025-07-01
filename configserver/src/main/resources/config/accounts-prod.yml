@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Eazy Bank Accounts related prod APIs"
+  contactDetails:
+    email: "email@example.com"
+    name: "Eazy Bank - prod"
+  onCallSupport:
+    - (8888) 555-1234
+    - (8888) 555-1235

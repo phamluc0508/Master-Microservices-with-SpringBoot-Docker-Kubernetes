@@ -1,0 +1,38 @@
+services:
+  accounts:
+    image: "luc.pham/accounts:latest"
+    container_name: "accounts-ms"
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: "700m"
+    networks:
+      - "luc.pham"
+  loans:
+    image: "luc.pham/loans:latest"
+    container_name: "loans-ms"
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: "700m"
+    networks:
+      - "luc.pham"
+  cards:
+    image: "luc.pham/cards:latest"
+    container_name: "cards-ms"
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: "700m"
+    networks:
+      - "luc.pham"
+
+networks:
+  luc.pham:
+    driver: bridge

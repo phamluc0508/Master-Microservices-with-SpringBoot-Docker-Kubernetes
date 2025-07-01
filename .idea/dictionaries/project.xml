@@ -1,0 +1,23 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="project">
+    <words>
+      <w>accountsdb</w>
+      <w>addr</w>
+      <w>cardsdb</w>
+      <w>configserver</w>
+      <w>datasources</w>
+      <w>defaultzone</w>
+      <w>eazybank</w>
+      <w>eazybytes</w>
+      <w>eurekaserver</w>
+      <w>eurekaservice</w>
+      <w>gatewayserver</w>
+      <w>loansdb</w>
+      <w>otel</w>
+      <w>otlp</w>
+      <w>pham</w>
+      <w>promtail</w>
+      <w>serviceurl</w>
+    </words>
+  </dictionary>
+</component>
